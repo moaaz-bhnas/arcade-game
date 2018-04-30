@@ -39,7 +39,7 @@ setInterval(generateBugs, 3000);
 
 setTimeout(() => {
     setInterval(removeBugs, 3000);
-}, 10000)
+}, 50000)
 
 
 /* --- Player Class --- */
