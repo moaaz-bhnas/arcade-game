@@ -14,7 +14,7 @@ class Character {
 /* --- Enemy Subclass --- */
 class Enemy extends Character {
     constructor() {
-        super('images/enemy-bug.png', -200, [60, 143, 227][Math.floor(Math.random() * 3)]);
+        super('images/enemy-bug.png', -200, [60, 143, 227][Math.floor(Math.random() * 3)]); // (60, 143, 227) are roads Y positions
         this.velocity = (Math.random() * 200) + 50;
     }
     
