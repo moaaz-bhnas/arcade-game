@@ -11,3 +11,7 @@ How to play the game:
 - The enemies move in varying speeds on the paved block portion of the scene. 
 - Once you collides with an enemy, the game is reset and you move back to the start square. 
 - Once you reach the water the game is won.
+
+How to access the game:
+- The game doesn't need to be downloaded.
+- If you downloaded the folder, just open 'index.html' on any browser, or use this link https://moaaz-bhnas.github.io/frontend-nanodegree-arcade-game/
