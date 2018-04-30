@@ -1,19 +1,25 @@
-/* --- Enemy Class --- */
-class Enemy {
+/* --- Character Class --- */
+class Character {
+    constructor(sprite, x, y) {
+        this.sprite = sprite;
+        this.x = x;
+        this.y = y;
+    }
+    
+    render() {
+        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+    }
+}
+
+/* --- Enemy Subclass --- */
+class Enemy extends Character {
     constructor() {
-        this.sprite = 'images/enemy-bug.png';
-        this.roadYPositions = [60, 143, 227];
-        this.x = -200;
-        this.y = this.roadYPositions[Math.floor(Math.random() * 3)];
+        super('images/enemy-bug.png', -200, [60, 143, 227][Math.floor(Math.random() * 3)]);
         this.velocity = (Math.random() * 200) + 50;
     }
     
     update(dt) {
         this.x += this.velocity * dt;
-    }
-    
-    render() {
-        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     }
 };
 
@@ -42,12 +48,10 @@ setTimeout(() => {
 }, 50000)
 
 
-/* --- Player Class --- */
-class Player {
+/* --- Player Subclass --- */
+class Player extends Character {
     constructor() {
-        this.sprite = 'images/char-boy.png';
-        this.x = 200;
-        this.y = 400;  
+        super('images/char-boy.png', 200, 400);
         this.initialX = this.x;
         this.initialY = this.y;
         this.step = 40;
@@ -78,10 +82,6 @@ class Player {
         }
         
         this.detectCollision();
-    }
-    
-    render() {
-        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     }
     
     detectCollision() {
