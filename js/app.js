@@ -3,7 +3,7 @@ class Enemy {
     constructor() {
         this.sprite = 'images/enemy-bug.png';
         this.roadYPositions = [60, 143, 227];
-        this.x = -101;
+        this.x = -200;
         this.y = this.roadYPositions[Math.floor(Math.random() * 3)];
         this.velocity = (Math.random() * 200) + 50;
     }
