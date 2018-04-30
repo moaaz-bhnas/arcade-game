@@ -14,4 +14,5 @@ How to play the game:
 
 How to access the game:
 - The game doesn't need to be downloaded.
-- If you downloaded the folder, just open 'index.html' on any browser, or use this link https://moaaz-bhnas.github.io/frontend-nanodegree-arcade-game/
+- You can open the game with this link => https://moaaz-bhnas.github.io/frontend-nanodegree-arcade-game/.
+- If you downloaded the repository, just open 'index.html' on any browser.
