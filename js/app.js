@@ -50,7 +50,7 @@ class Player {
         this.y = 400;  
         this.initialX = this.x;
         this.initialY = this.y;
-        this.step = 30;
+        this.step = 40;
     }
     
     handleInput(direction) {
