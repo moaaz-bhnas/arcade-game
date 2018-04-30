@@ -21,7 +21,7 @@ class Enemy extends Character {
     update(dt) {
         this.x += this.velocity * dt;
     }
-};
+}
 
 /* --- Enemies Instances --- */
 const allEnemies = [];
@@ -86,7 +86,7 @@ class Player extends Character {
     
     detectCollision() {
         for (const enemy of allEnemies) {
-            if (getDistance(this.x, this.y, enemy.x, enemy.y) < 78) {
+            if (getDistance(this.x, this.y, enemy.x, enemy.y) < 70) {
                 setTimeout(() => {
                     this.reset();
                 }, 5);
