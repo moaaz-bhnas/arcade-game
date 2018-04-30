@@ -27,8 +27,19 @@ const generateBugs = () => {
     }
 }
 
+const removeBugs = () => {
+    const randomNumber = Math.floor((Math.random() * 2) + 3),
+          length = allEnemies.length;
+    
+    allEnemies.splice(0, randomNumber);
+}
+
 generateBugs();
 setInterval(generateBugs, 3000);
+
+setTimeout(() => {
+    setInterval(removeBugs, 3000);
+}, 10000)
 
 
 /* --- Player Class --- */
