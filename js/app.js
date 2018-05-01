@@ -86,7 +86,7 @@ class Player extends Character {
     
     detectCollision() {
         for (const enemy of allEnemies) {
-            if (getDistance(this.x, this.y, enemy.x, enemy.y) < 70) {
+            if (getDistance(this.x, this.y, enemy.x, enemy.y) < 65) {
                 setTimeout(() => {
                     this.reset();
                 }, 5);
