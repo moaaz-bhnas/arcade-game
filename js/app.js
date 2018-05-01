@@ -31,21 +31,21 @@ const generateBugs = () => {
     for (let i = 0; i < randomNumber; i++) {
         allEnemies.push(new Enemy());
     }
-}
+};
 
 const removeBugs = () => {
     const randomNumber = Math.floor((Math.random() * 2) + 3),
           length = allEnemies.length;
     
     allEnemies.splice(0, randomNumber);
-}
+};
 
 generateBugs();
 setInterval(generateBugs, 3000);
 
 setTimeout(() => {
     setInterval(removeBugs, 3000);
-}, 50000)
+}, 50000);
 
 
 /* --- Player Subclass --- */
@@ -109,7 +109,7 @@ const getDistance = (x1, y1, x2, y2) => {
           yDistance = y2 - y1;
     
     return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
-}
+};
     
 /* --- Key Presses event listener --- */
 document.addEventListener('keyup', event => {
