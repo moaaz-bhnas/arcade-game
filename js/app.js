@@ -74,15 +74,19 @@ class Player extends Character {
                 this.x -= (this.x - this.step > -15) ? this.step : 0;
                 break;
         }
+        
+        this.winTest();
     } 
     
-    update() {
+    winTest() {
         if ((this.y + 171/2) < 83) {
             setTimeout(() => {
                 this.reset();
             }, 200);
         }
-        
+    }
+    
+    update() {
         this.detectCollision();
     }
     
