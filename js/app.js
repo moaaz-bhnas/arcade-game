@@ -1,3 +1,5 @@
+'use strict';
+
 /* --- Character Class --- */
 class Character {
     constructor(sprite, x, y) {
