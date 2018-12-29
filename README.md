@@ -7,7 +7,7 @@ Use the arrow keys to reach the water, without colliding into any one of the ene
 https://moaaz-bhnas.github.io/arcade-game/
  
 ## Screenshots
-![live preview](https://media.giphy.com/media/jUuGpXmOYT2XpyjTae/giphy.gif)
+![live preview](https://media.giphy.com/media/4ag7A89fPC0fTCw3cI/giphy.gif)
 
 ## Built With
 Vanilla JavaScript (OOP)
