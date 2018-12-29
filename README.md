@@ -1,35 +1,28 @@
-# Memory Game
+# Arcade Game
 
 ## Goal
-Reach the water, without colliding into any one of the enemies.
+Use the arrow keys to reach the water, without colliding into any one of the enemies.
 
 ## Live
-https://moaaz-bhnas.github.io/memory-game/
+https://moaaz-bhnas.github.io/arcade-game/
  
 ## Screenshots
-![live preview](https://media.giphy.com/media/EQm0IFh2h4VgO1RD5T/giphy.gif)
+![live preview](https://media.giphy.com/media/9PeNB9p4zTwIH0wxvm/giphy.gif)
 
-## Tech/framework used
-Only vanilla JavaScript (mvc)
+## Built With
+Vanilla JavaScript (OOP)
 
 ## Requeriments
-This project have some requeriments you need to meet in order to compile it. First of all, you need NodeJS in order to run javascript on the console, you can go to the [NodeJS](https://nodejs.org/en/) site and follow trough the installation process. After you get the node command on the console you will have the node package manager npm as well. Now you need to install Gulp with the following command.  
-```
-npm install -g gulp
-```  
-Gulp is the one that will run all the compilation, watchers and others tasks. To learn more about Gulp and all it's magical abilities check out there website [here](https://gulpjs.com/).
+To clone this application, you'll need [Git](https://git-scm.com/)..
 
 ## Installation
 ```
 # Clone this repository
-$ git clone https://github.com/moaaz-bhnas/memory-game.git
+$ git clone https://github.com/moaaz-bhnas/arcade-game.git
 
 # Go into the repository
-$ cd memory-game
+$ cd arcade-game
 
-# Install dependencies
-$ npm install
-
-# Run the app
-$ gulp
+# Run
+// Open index.html file on your preferred browser
 ```
