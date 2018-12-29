@@ -1,14 +1,35 @@
-frontend-nanodegree-arcade-game
-==============================
+# Memory Game
 
-How to play the game:
-- In this game your goal is to reach the water, without colliding into any one of the enemies (bugs). 
-- You can move left, right, up and down. 
-- The enemies move in varying speeds on the paved block portion of the scene. 
-- Once you collides with an enemy, the game is reset and you move back to the start square. 
-- Once you reach the water the game is won.
+## Goal
+Reach the water, without colliding into any one of the enemies.
 
-How to access the game:
-- The game doesn't need to be downloaded.
-- You can open the game with this link => https://moaaz-bhnas.github.io/frontend-nanodegree-arcade-game/.
-- If you downloaded the repository, just open 'index.html' on any browser.
+## Live
+https://moaaz-bhnas.github.io/memory-game/
+ 
+## Screenshots
+![live preview](https://media.giphy.com/media/EQm0IFh2h4VgO1RD5T/giphy.gif)
+
+## Tech/framework used
+Only vanilla JavaScript (mvc)
+
+## Requeriments
+This project have some requeriments you need to meet in order to compile it. First of all, you need NodeJS in order to run javascript on the console, you can go to the [NodeJS](https://nodejs.org/en/) site and follow trough the installation process. After you get the node command on the console you will have the node package manager npm as well. Now you need to install Gulp with the following command.  
+```
+npm install -g gulp
+```  
+Gulp is the one that will run all the compilation, watchers and others tasks. To learn more about Gulp and all it's magical abilities check out there website [here](https://gulpjs.com/).
+
+## Installation
+```
+# Clone this repository
+$ git clone https://github.com/moaaz-bhnas/memory-game.git
+
+# Go into the repository
+$ cd memory-game
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ gulp
+```
